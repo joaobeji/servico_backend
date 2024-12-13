@@ -1,8 +1,8 @@
 const express = require("express");
 const cors = require('cors');  // Importa o módulo cors
 const bodyParser = require("body-parser");
-const produtosRoutes = require("./routerProdutos.js");
-const usuariosRoutes = require("./routerUsuarios.js");
+const produtosRoutes = require("../routerProdutos.js");
+const usuariosRoutes = require("../routerUsuarios.js");
 
 
 const path = require("path");
